@@ -2,14 +2,14 @@
   "name": "javascript-boilerplate",
   "version": "1.0.0",
   "description": "Javascript development environment",
-  "author": "Your name here",
+  "author": "Deeznuts",
   "jest": {
     "verbose": true
   },
   "scripts": {
     "start": "npm-run-all --parallel open:src start-mockapi",
     "open:src": "babel-node server/server.js",
-    "lint": "eslint client",
+    "lint": "eslint ./client",
     "clean-dist": "rimraf ./dist && mkdir dist",
     "test": "jest",
     "prebuild": "npm-run-all clean-dist lint",
@@ -34,7 +34,7 @@
     "babel-register": "^6.26.0",
     "chai": "^4.2.0",
     "cors": "^2.8.4",
-    "css-loader": "^3.4.2",
+    "css-loader": "^3.6.0",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.20.2",
@@ -50,9 +50,19 @@
     "npm-run-all": "^4.1.5",
     "open": "^7.0.3",
     "sass-loader": "^8.0.2",
-    "style-loader": "^1.1.3",
+    "style-loader": "^1.3.0",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.7"
-  }
+  },
+  "main": "webpack.config.dev.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d4vid-le/jsboilerplate.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d4vid-le/jsboilerplate/issues"
+  },
+  "homepage": "https://github.com/d4vid-le/jsboilerplate#readme"
 }
