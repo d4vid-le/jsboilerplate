@@ -1,3 +1,5 @@
+https://medium.com/javascript-in-plain-english/how-to-set-up-a-js-dev-environment-5104f3b24ccb
+
 # Tutorial: How to set up a JS dev environment
 
 Learn how to work like professional web developers by creating a JavaScript starter kit that you can reuse in all your projects. 
